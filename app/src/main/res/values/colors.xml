@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="equals">#969ba3</color>
+    <color name="grey">#e3e7e9</color><!--线灰色 -->
+    <color name="font_black">#979ca4</color><!--黑色 -->
+    <color name="black">#46494d</color><!--黑色 -->
+</resources>

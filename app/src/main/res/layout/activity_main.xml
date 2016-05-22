@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.random.nt.calculator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/equation"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="bottom|right"
+            android:textSize="24sp"
+            android:textColor="@color/equals"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="right|bottom"
+            android:maxLines="1"
+            android:scrollbars="vertical"
+            android:textSize="48sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/keyboard"/>
+
+
+</LinearLayout>
